@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Lịch Công Giáo Hôm Nay</title>
+  <style>
+    /* CSS cơ bản */
+    .lcghn {
+      padding: 20px;
+      border-radius: 8px;
+      color: #fff;
+      max-width: 600px;
+      margin: 30px auto;
+      font-family: sans-serif;
+    }
+    .bgpurple { background-color: #6a0dad; }
+    .ttlcghn { font-size: 1.5em; margin-top: 10px; }
+    .dsbd {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    .ttda { font-weight: bold; margin-bottom: 5px; }
+    .paole { font-style: italic; margin-top: 10px; }
+    .kinh-man-coi { margin-top: 15px; }
+    .kinh-man-coi a { color: #fff; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="lcghn bgpurple">
+    <h2>Lịch Công Giáo Hôm Nay</h2>
+    <p style="color:#eee;margin-top:10px;font-style:italic">Lịch Công Giáo hôm nay lễ gì?</p>
+    <h3 class="ttlcghn" id="date-title">Ngày hiện tại</h3>
+    <p class="ploaile" id="description"></p>
+    <div class="dsbd" id="readings">
+      <p class="ttda">Các bài đọc và tin mừng hôm nay</p>
+      <div id="reading-text"></div>
+    </div>
+    <p class="paole" id="paole"></p>
+    <div class="kinh-man-coi">
+      <a href="https://loichuahomnay.vn/" title="bài đọc, tin mừng, suy niệm của ngày hôm nay">
+        Xem các Bài đọc, Tin Mừng, Suy Niệm của ngày hôm nay
+      </a>
+    </div>
+  </div>
+
+  <script>
+    // JSON dữ liệu mẫu (chỉ lấy một vài đối tượng để demo)
+    const data = [
+      {
+        "url": "https://loichuahomnay.vn/suy-niem-loi-chua-ngay-01-01-2025",
+        "title": "Lịch công giáo ngày 01-01-2025",
+        "desc": "Thánh Ma-ri-a, Ðức Mẹ Chúa Trời",
+        "read": "Các bài đọc và tin mừng hôm nay Ds 6,22-27 ; GI 4,4-7 ; Lc 2,16-21",
+        "paole": "Áo Lễ Linh Mục: Trắng"
+      },
+      {
+        "url": "https://loichuahomnay.vn/suy-niem-loi-chua-ngay-20-01-2025",
+        "title": "Lịch công giáo ngày 20-01-2025",
+        "desc": "Thứ Hai trong tuần thứ Hai Mùa Quanh Năm",
+        "read": "Các bài đọc và tin mừng hôm nay Dt 5,1-10 ; Mc 2,18-22 (X)",
+        "paole": "Áo Lễ Linh Mục: Xanh"
+      }
+      // Thêm các đối tượng khác theo JSON của bạn...
+    ];
+    
+    // Đặt ngày cần hiển thị (theo định dạng dd-mm-yyyy)
+    const targetDate = "20-01-2025";
+    
+    // Tìm đối tượng có chứa targetDate trong thuộc tính title
+    const entry = data.find(item => item.title.includes(targetDate));
+    
+    // Cập nhật nội dung trang nếu tìm thấy dữ liệu
+    if (entry) {
+      // Cập nhật tiêu đề: bạn có thể hiển thị ngày và mô tả lễ
+      document.getElementById("date-title").textContent = entry.title + ": " + entry.desc;
+      document.getElementById("description").textContent = entry.desc;
+      document.getElementById("reading-text").textContent = entry.read;
+      document.getElementById("paole").textContent = entry.paole;
+    } else {
+      document.getElementById("date-title").textContent = "Không có dữ liệu cho ngày " + targetDate;
+    }
+  </script>
+</body>
+</html>
