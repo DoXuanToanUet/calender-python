@@ -1,0 +1,16 @@
+https://blog.avada.io/wordpress/docs/appearance
+https://blog.avada.io/wordpress/docs/comments
+https://blog.avada.io/wordpress/docs/configuration
+https://blog.avada.io/wordpress/docs/following
+https://blog.avada.io/wordpress/docs/languages
+https://blog.avada.io/wordpress/docs/links
+https://blog.avada.io/wordpress/docs/notifications
+https://blog.avada.io/wordpress/docs/policies-and-safety
+https://blog.avada.io/wordpress/docs/shortcodes
+https://blog.avada.io/wordpress/docs/social-tools
+https://blog.avada.io/wordpress/docs/tools
+https://blog.avada.io/wordpress/docs/tutorials
+https://blog.avada.io/wordpress/docs/upgrades
+https://blog.avada.io/wordpress/docs/users
+https://blog.avada.io/wordpress/docs/widgets-and-sidebars
+https://blog.avada.io/wordpress/docs/writing-editing

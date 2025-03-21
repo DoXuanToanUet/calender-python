@@ -1,0 +1,41 @@
+Thời gian bắt đầu: 2025-03-21 10:44:53
+
+Tổng số URL cần xử lý: 16
+
+Đang xử lý URL 1/16: https://blog.avada.io/wordpress/docs/appearance
+Tìm thấy 12 link ở https://blog.avada.io/wordpress/docs/appearance
+Đang xử lý URL 2/16: https://blog.avada.io/wordpress/docs/comments
+Tìm thấy 3 link ở https://blog.avada.io/wordpress/docs/comments
+Đang xử lý URL 3/16: https://blog.avada.io/wordpress/docs/configuration
+Tìm thấy 4 link ở https://blog.avada.io/wordpress/docs/configuration
+Đang xử lý URL 4/16: https://blog.avada.io/wordpress/docs/following
+Tìm thấy 1 link ở https://blog.avada.io/wordpress/docs/following
+Đang xử lý URL 5/16: https://blog.avada.io/wordpress/docs/languages
+Không tìm thấy link nào trong các thẻ <h2> tại https://blog.avada.io/wordpress/docs/languages
+  Không tìm thấy link nào trong container
+Đang xử lý URL 6/16: https://blog.avada.io/wordpress/docs/links
+Tìm thấy 1 link ở https://blog.avada.io/wordpress/docs/links
+Đang xử lý URL 7/16: https://blog.avada.io/wordpress/docs/notifications
+Tìm thấy 2 link ở https://blog.avada.io/wordpress/docs/notifications
+Đang xử lý URL 8/16: https://blog.avada.io/wordpress/docs/policies-and-safety
+Tìm thấy 1 link ở https://blog.avada.io/wordpress/docs/policies-and-safety
+Đang xử lý URL 9/16: https://blog.avada.io/wordpress/docs/shortcodes
+Tìm thấy 17 link ở https://blog.avada.io/wordpress/docs/shortcodes
+Đang xử lý URL 10/16: https://blog.avada.io/wordpress/docs/social-tools
+Tìm thấy 1 link ở https://blog.avada.io/wordpress/docs/social-tools
+Đang xử lý URL 11/16: https://blog.avada.io/wordpress/docs/tools
+Tìm thấy 7 link ở https://blog.avada.io/wordpress/docs/tools
+Đang xử lý URL 12/16: https://blog.avada.io/wordpress/docs/tutorials
+Tìm thấy 24 link ở https://blog.avada.io/wordpress/docs/tutorials
+Đang xử lý URL 13/16: https://blog.avada.io/wordpress/docs/upgrades
+Tìm thấy 40 link ở https://blog.avada.io/wordpress/docs/upgrades
+Đang xử lý URL 14/16: https://blog.avada.io/wordpress/docs/users
+Tìm thấy 9 link ở https://blog.avada.io/wordpress/docs/users
+Đang xử lý URL 15/16: https://blog.avada.io/wordpress/docs/widgets-and-sidebars
+Tìm thấy 32 link ở https://blog.avada.io/wordpress/docs/widgets-and-sidebars
+Đang xử lý URL 16/16: https://blog.avada.io/wordpress/docs/writing-editing
+Tìm thấy 43 link ở https://blog.avada.io/wordpress/docs/writing-editing
+Hoàn thành. Đã lưu 197 link vào file 'docurl.txt'.
+
+Thời gian kết thúc: 2025-03-21 10:48:19
+Thời gian chạy: 205.687523 giây
